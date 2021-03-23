@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>aeko</title>
-  <meta name="keywords" content="IIIT Kalyani 2nd Sem">
+  <title>Aeko</title>
   <meta name="description" content="Automatically loads gmeet links according to the schedule.">
   <meta name="author" content="Mislah">
 </head>
 <body onload=reDirect()>
 <script>
 function reDirect() {
+    document.title = "Loading.."; 
     var date = new Date();
     var t = date.getHours()*100 + date.getMinutes();
     var dict = {
@@ -19,7 +19,7 @@ function reDirect() {
         CS212:"czwhyjyyik",
         EC201:"ejv6wuetpb",
         EC211:"cwmewxfeur",
-        HU201:""
+        HU201:"cilslrnotz"
     } 
     switch(date.getDay()){
         case 2:
@@ -34,9 +34,6 @@ function reDirect() {
             }
             else if(t>=1350 && t<1700){
                 go(dict.CS212);
-            }
-            else if(t>=2000 && t<2100){//
-                location.replace("https://www.google.com");
             }
             else{
                 window.close();
@@ -97,4 +94,4 @@ function go(code){
 }
 </script>
 </body>
-</html> 
+</html>
