@@ -1,2 +1,2 @@
 # aeko
-Loads google meet links according to time table
+Automatically loads gmeet according to the schedule.
