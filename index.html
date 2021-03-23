@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loading..</title>
+</head>
+<body onload=reDirect()>
+<script>
+function reDirect() {
+    var date = new Date();
+    var t = date.getHours()*100+date.getMinutes();
+    var dict = {
+        CS201:"dl6u4vjqq6",
+        CS202:"cdvvxcjfvs",
+        CS203:"gru5xvibi3",
+        CS211:"dl6u4vjqq6",
+        CS212:"cdvvxcjfvs",
+        EC201:"ejv6wuetpb",
+        EC211:"cwmewxfeur",
+        HU201:"",
+    } 
+    switch(date.getDay()){
+        case 2:
+            if(t>=750 && t<850){
+                go(dict.CS203);
+            }
+            else if(t>=850 && t<1050){
+                go(dict.HU201);
+            }
+            else if(t>=1050 && t<1300){
+                go(dict.CS202);
+            }
+            else if(t>=1350 && t<1700){
+                go(dict.CS212);
+            }
+            else{
+                window.close();
+            }
+            break;
+        case 3:
+            if(t>=950 && t<1150){
+                go(dict.CS201);
+            }
+            else if(t>=1150 && t<1300){
+                go(dict.EC201);
+            }
+            else if(t>=1350 && t<1650){
+                go(dict.EC211);
+            }
+            else if(t>=1650 && t<1800){
+                go(dict.CS203);
+            }
+            else{
+                window.close();
+            }
+            break;
+        case 4:
+            if(t>=850 && t<950){
+                go(dict.HU201);
+            }
+            else if(t>=950 && t<1200){
+                go(dict.CS203);
+            }
+            else if(t>=1350 && t<1600){
+                go(dict.EC201);
+            }
+            else{
+                window.close();
+            }
+            break;
+        case 5:
+            if(t>=850 && t<1050){
+                go(dict.CS201);
+            }
+            else if(t>=1050 && t<1300){
+                go(dict.CS202);
+            }
+            else if(t>=1350 && t<1700){
+                go(dict.CS211);
+            }
+            else{
+                window.close();
+            }
+            break;
+        default:
+            window.close();
+    }
+}
+function go(code){
+    link = "https://meet.google.com/lookup/" + code;
+    location.replace(link);
+}
+</script>
+</body>
+</html> 
