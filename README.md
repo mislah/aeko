@@ -1,8 +1,5 @@
 # aeko
-Automatically loads gmeet according to the schedule.
+Automatically loads google meet according to a fixed schedule.
 
-CAUTION:
-Only works for 3rd Sem, IIIT Kalyani 2020-24 batch. Others may download index.html and edit the source code.    
+CAUTION: 
 May cause error if system time is inaccurate or if the local time is not IST.  
-Aeko redirect to gmeet links from 10 mins prior to a session to the scheduled end of the session.  
-If no meet scheduled after it, aeko works for 10 more mins.
