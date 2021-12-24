@@ -13,7 +13,7 @@
         function reDirect() {
             var date = new Date();
             var time = date.getHours() * 100 + date.getMinutes();
-            var tday = data.table[date.getDay() - 1];
+            var tday = data.table[date.toDateString().split(" ")[0]];
             var flag = false;
             for (i in tday) {
                 if (time >= tday[i].t[0] && time <= tday[i].t[1]) {
