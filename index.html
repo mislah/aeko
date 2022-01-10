@@ -14,16 +14,14 @@
             var date = new Date();
             var time = date.getHours() * 100 + date.getMinutes();
             var tday = data.schedule[date.toDateString().split(" ")[0]];
-            var flag = false;
-            for (i in tday) {
+            for (i = 0; i < tday.length; i++) {
                 if (time >= tday[i].time[0] && time <= tday[i].time[1]) {
-                    location.replace("https://meet.google.com/lookup/" + data.link[tday[i].label]);
-                    flag = true;
+                    location.replace("https://meet.google.com/" + data.link[tday[i].label]);
                     break;
                 }
             }
-            if (!flag) {
-                location.replace("");
+            if (i == tday.length) {
+                location.replace("/");
                 window.close();
             }
         }
