@@ -7,12 +7,12 @@
 data = {
     "link": {
         "CS401": "",
-        "CS402": "",
+        "CS402": "gec-xhsk-jjp",
         "CS403": "yzt-mzav-ruh",
         "CS411": "",
         "CS412": "",
         "CS413": "",
-        "EC401": "",
+        "EC401": "xss-btcc-jcc",
         "EC402": ""
     },
     "schedule": {
