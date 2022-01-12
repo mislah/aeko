@@ -1,7 +1,7 @@
 /*
- * This file contains the meet codes and the timetable
- * Dictionary element 'link' contains labels and their respective meet code
- * Value of 'time' should be in the format HHMM (24h format, without colon)
+ * This file contains the meet codes and the schedule
+ * Dictionary element 'link' contains labels and their respective meet codes
+ * Value of 'time' is in the format HHMM (24h format, without colon)
  */
 
 data = {
@@ -13,7 +13,7 @@ data = {
         "CS412": "",
         "CS413": "",
         "EC401": "xss-btcc-jcc",
-        "EC402": ""
+        "EC402": "eyr-gqsm-qmj"
     },
     "schedule": {
         "Mon": [
