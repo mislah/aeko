@@ -11,7 +11,7 @@ data = {
         "CS403": "yzt-mzav-ruh",
         "CS411": "",
         "CS412": "",
-        "CS413": "",
+        "CS413": "iqf-knkk-ogr",
         "EC401": "xss-btcc-jcc",
         "EC402": "eyr-gqsm-qmj"
     },
