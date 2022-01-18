@@ -10,7 +10,7 @@ data = {
         "CS402": "gec-xhsk-jjp",
         "CS403": "yzt-mzav-ruh",
         "CS411": "",
-        "CS412": "",
+        "CS412": "mro-tdkm-gzj",
         "CS413": "iqf-knkk-ogr",
         "EC401": "xss-btcc-jcc",
         "EC402": "eyr-gqsm-qmj"
