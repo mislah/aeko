@@ -6,10 +6,10 @@
 
 data = {
     "link": {
-        "CS401": "",
+        "CS401": "usk-fscq-nkv",
         "CS402": "gec-xhsk-jjp",
         "CS403": "yzt-mzav-ruh",
-        "CS411": "",
+        "CS411": "knc-szrc-cxn",
         "CS412": "mro-tdkm-gzj",
         "CS413": "iqf-knkk-ogr",
         "EC401": "xss-btcc-jcc",
@@ -27,6 +27,7 @@ data = {
             { "time": [1350, 1600], "label": "EC401" }
         ],
         "Wed": [
+            { "time": [950, 1050], "label": "EC402" },
             { "time": [1050, 1150], "label": "EC401" },
             { "time": [1150, 1300], "label": "EC402" },
             { "time": [1450, 1700], "label": "CS403" }
