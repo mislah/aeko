@@ -29,17 +29,15 @@ class nextSession {
     
     convTime(time) {
         time = String(time);
-        let h = parseInt(time.slice(0, -2));
-        let p = " AM";
-        if (h > 12) {
-            h -= 12;
-            p = " PM";
+        let hour = parseInt(time.slice(0, -2));
+        if (hour > 12) {
+            return (hour-12 + ":" + time.slice(-2) + " PM");
         }
-        return (h + ":" + time.slice(-2) + p);
+        return (hour + ":" + time.slice(-2) + " AM");
     }
 
     get(){
-        let ret = this.getNextSession();
-        return "Next class is <strong>"+ret[0]+"</strong> at "+ret[1]+" "+ret[2]+".";
+        let nextSession = this.getNextSession();
+        return "Next class is <strong>"+nextSession[0]+"</strong> at "+nextSession[1]+" "+nextSession[2]+".";
     }
 }
